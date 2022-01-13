@@ -1,0 +1,50 @@
+html {
+    background-color: rgb(0, 119, 255);
+}
+
+body {     
+    max-height: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.circle {
+    margin: 25% auto;
+    width: 30rem;
+    height: 30rem;
+    border: 20px solid #fff;
+    border-radius: 50%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.849) 3px 3px 5px 6px;
+}
+
+.hour {
+    position: absolute;
+    float: left;
+    right: 50%;
+    align-self: center;    
+    border-top: 5px solid #000;
+    width: 14.5%;
+    transform-origin: 100%;
+}
+
+.sec {
+    border-top: 5px solid #000;
+    width: 50%;
+    justify-content: center;
+    align-self: center;
+    transform-origin: 100%;
+    position: relative;
+    right: 50%;
+}
+
+.min {
+    border-top: 5px solid #fff;
+    margin-left: 20%;
+    width: 30%;
+    float: left;
+    align-self: center;
+    transform-origin: 100%;
+}
